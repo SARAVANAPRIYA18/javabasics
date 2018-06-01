@@ -32,7 +32,7 @@ public class Ismultiple {
 		while(number!=0)
 		{
 			
-			 i=number%10;
+			 i=number%10; 
 			value=(value*10)+i;
 			number=number/10;
 		}
@@ -42,12 +42,12 @@ public class Ismultiple {
 	public static void main(String[] args)
 	{
 		Ismultiple m=new Ismultiple();
-		System.out.println(m.iseven(8));
-		System.out.println(m.ismuliple(10, 5));
-		System.out.println(m.celsius(11.1, 12));
-		System.out.println(m.fahrenheit(33.3));
-		System.out.println(m.isperfect(7));
-		System.out.println(m.reverse(978));
+		System.out.println("The given boolean is "+m.iseven(8));
+		System.out.println("The given boolean is "+m.ismuliple(10, 5));
+		System.out.println("The Celsius is "+m.celsius(11.1, 12));
+		System.out.println("The Fahrenheit is "+m.fahrenheit(33.3));
+		System.out.println("The given boolean is "+m.isperfect(7));
+		System.out.println("The revers of Number is "+m.reverse(978));
 		}
 
 }
