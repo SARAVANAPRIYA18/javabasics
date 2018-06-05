@@ -23,8 +23,7 @@ public class MinMaxReverse
 
 	public void reverse() {
 		int i=0;
-		System.out.println("Reverse the above array : " + 
-				"");
+		System.out.println("Reverse the above array : " );
 		for(i=(a.length-1);i!= 0;i--) {
 			System.out.print(" "+a[i]);
 		}
